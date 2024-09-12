@@ -31,7 +31,7 @@ module "sandbox2" {
 
   control_tower_parameters = {
     AccountEmail              = "haliceugiwei-2837@yopmail.com"
-    AccountName               = "sandbox-aft"
+    AccountName               = "sandbox-aft2"
     ManagedOrganizationalUnit = "AFT"
     SSOUserEmail              = "mickjmorse@gmail.com"
     SSOUserFirstName          = "Sandbox"
@@ -39,7 +39,7 @@ module "sandbox2" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "Learn Tutorial" = "AFT2"
   }
 
   change_management_parameters = {
